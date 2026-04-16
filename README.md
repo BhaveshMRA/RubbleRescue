@@ -1,8 +1,8 @@
-# 🐍 RebelRescue
+# 🐍 RubbleRescue
 
 > Cable-actuated disaster rescue snake robot — built at hackathon
 
-RebelRescue is a snake-shaped reconnaissance robot that slithers through rubble, tight gaps, and hazardous zones that are too dangerous for human entry. It detects smoke, flame, temperature, and humidity in real time, streams live video via a Logitech camera, and is controlled via WASD keys over Serial — all from a laptop.
+RubbleRescue is a snake-shaped reconnaissance robot that slithers through rubble, tight gaps, and hazardous zones that are too dangerous for human entry. It detects smoke, flame, temperature, and humidity in real time, streams live video via a Logitech camera, and is controlled via WASD keys over Serial — all from a laptop.
 
 ---
 
@@ -119,7 +119,7 @@ Flame: 1  |  Status: *** FLAME DETECTED ***
 ## Project Structure
 
 ```
-rebelrescue/
+rubblerescue/
 ├── firmware/
 │   ├── uno_q_main/
 │   │   └── uno_q_main.ino      # Main sketch — sensors + Serial control
